@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 60 60"
+     width="60"
+
+     height="60"
+     fill="#555"
+
+     stroke="#000"
+     stroke-width="4"
+>
+    <g id="trash-container" stroke-linecap="round">
+        <rect x="10" y="15" width="40" height="40" />
+        <line x1="22" x2="22" y1="23" y2="55"/>
+        <line x1="32" x2="32" y1="23" y2="55"/>
+        <line x1="42" x2="42" y1="23" y2="55"/>
+
+        <polygon id="trash-lid"
+                 stroke-linejoin="round"
+                 points="10,10
+                 50,10
+                 35,10
+                 35,5
+                 25,5
+                 25,10"
+
+        />
+    </g>
+
+</svg>

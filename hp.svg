@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="-15 -15 60 60"
+     width="60"
+     height="60"
+     fill="#555"
+     stroke="#000"
+     stroke-width="4"
+>
+    <path class="hp-speaker"
+          d="M 10,25
+            h 10
+            l 10,-10
+            v 30
+            l-10,-10
+            h -10
+            Z"
+    />
+    <defs>
+        <path id="hp-single-wave" class="hp-single-wave"
+                  fill="none"
+
+                  d="M 10,0
+                    A 10,10,0,0,1,0,10"
+              vector-effect="non-scaling-stroke"
+        />
+    </defs>
+
+    <g class="hp-waves">
+        <use xlink:href="#hp-single-wave"/>
+        <use xlink:href="#hp-single-wave" transform="scale(1.75)"/>
+        <use xlink:href="#hp-single-wave" transform="scale(2.5)"/>
+    </g>
+
+</svg>
